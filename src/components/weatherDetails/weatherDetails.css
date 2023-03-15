@@ -1,0 +1,29 @@
+.weather-box {
+  margin: 24px;
+  text-align: center;
+}
+.weather-box .temperature {
+  font-size: 44px;
+}
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.humidity, .wind {
+  display: flex;
+  vertical-align: middle;
+}
+.humidity i, .wind i {
+  font-size: 28px;
+  margin-right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.data .value {
+  font-size: 20px;
+} 
+.data label {
+  font-size: 14px;
+  color: darkslategrey;
+}
